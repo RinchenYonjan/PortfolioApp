@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- first LinearLayout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment">
+
+
+        <!-- RelativeLayout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <!-- MyPortfolio.txt -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_portfolio"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:textColor="#FAB341"/>
+
+
+            <!-- ContactUs button -->
+            <Button
+                android:id="@+id/contactButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ContactMe"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="80dp"
+                android:textColor="#FAB341"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+
+            <!-- BackgroundImage -->
+            <ImageView
+                android:id="@+id/bgimg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/custom_describe_textview"
+                app:srcCompat="@drawable/image"/>
+
+
+            <!-- RinchenYonjan -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/rinchen_yonjan"
+                android:textColor="#FAB341"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:layout_marginTop="450dp"/>
+
+
+            <!-- description text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/my.info"
+                android:textColor="#f9f9f9"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:layout_marginTop="550dp"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+</LinearLayout>

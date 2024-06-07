@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyPortfolio App</string>
+    <string name="skip">Skip</string>
+    <string name="intro.txt1">Hello user welcome to our Android Application. Thank you for choosing us. Let\'s begin our journey.</string>
+    <string name="intro.txt2">You can use our android application by tapping on screen button.</string>
+    <string name="intro.txt3">An interactive Android portfolio application featuring a personal details with camera access and valuable information.</string>
+    <string name="my_portfolio">MY PORTFOLIO</string>
+    <string name="next">Next</string>
+    <string name="contact_us">ContactUs</string>
+    <string name="rinchen_yonjan">RINCHEN YONJAN</string>
+    <string name="my.info">Hi Everyone welcome to My Mobile App.This is home page of my Mobile App. Down we have four different navigation button
+        each button takes you to different screen.</string>
+    <string name="title_activity_mainintro">Mainintro</string>
+    <string name="txt_h2">Enter Your personal information which helps you to get relevant information.</string>
+    <string name="h1_txt">Personal Information</string>
+    <string name="capture_your_own_image_here">Capture your own image here.</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_main_intro">main_intro</string>
+    <string name="username">UserName</string>
+    <string name="heading2">How can we help you?</string>
+    <string name="heading1">ContactUs</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="send">Send</string>
+    <string name="anything_want_to_ask">Anything want to ask...</string>
+    <string name="programming_skill">Programming Skill (Intermediate)</string>
+    <string name="other_skill">Other Skill (Expert)</string>
+    <string name="soft_skill">Soft Skill (Expert)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
